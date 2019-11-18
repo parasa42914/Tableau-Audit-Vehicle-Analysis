@@ -1,0 +1,2634 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workbook xmlns:o="urn:schemas-microsoft-com:office"
+          xmlns:x="urn:schemas-microsoft-com:excel"
+          xmlns:ss="urn:schemas-microsoft-com:spreadsheet"
+          xmlns:html="http://www.w3.org/TR/REC-html40"
+          xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+   <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+      <Author>Global Health Observatory</Author>
+      <Created>2019-10-03T06:44:44.197+02:00</Created>
+      <Company>World Health Organization</Company>
+      <Version>1.0</Version>
+   </DocumentProperties>
+   <Styles>
+      <Style ss:ID="Default" ss:Name="Normal">
+         <Alignment ss:Vertical="Top"/>
+         <Borders/>
+         <Font ss:Size="10"/>
+         <Interior/>
+         <NumberFormat/>
+         <Protection/>
+      </Style>
+      <Style ss:ID="Data" ss:Name="Data">
+         <Alignment ss:Vertical="Top"/>
+         <Borders>
+            <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+            <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+         </Borders>
+         <Font ss:Size="10"/>
+         <Interior/>
+         <NumberFormat/>
+         <Protection/>
+      </Style>
+      <Style ss:ID="Header" ss:Name="Header">
+         <Alignment ss:Vertical="Top" ss:WrapText="1"/>
+         <Borders>
+            <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="2"/>
+            <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="2"/>
+         </Borders>
+         <Font ss:Size="11" ss:Bold="1"/>
+         <Interior/>
+         <NumberFormat/>
+         <Protection/>
+      </Style>
+      <Style ss:ID="HeaderHyperlink" ss:Name="HeaderHyperlink">
+         <Alignment ss:Vertical="Top" ss:WrapText="1"/>
+         <Borders>
+            <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="2"/>
+            <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="2"/>
+         </Borders>
+         <Font ss:Size="11" ss:Bold="1" ss:Color="#0000FF" ss:Underline="Single"/>
+         <Interior/>
+         <NumberFormat/>
+         <Protection/>
+      </Style>
+      <Style ss:ID="Bold" ss:Name="Bold">
+         <Alignment ss:Vertical="Top"/>
+         <Font ss:Bold="1"/>
+      </Style>
+      <Style ss:ID="Hyperlink" ss:Name="Hyperlink">
+         <Font ss:Color="#0000FF" ss:Underline="Single"/>
+      </Style>
+      <Style ss:ID="WordWrap" ss:Name="WordWrap">
+         <Alignment ss:WrapText="1"/>
+      </Style>
+   </Styles>
+   <Worksheet ss:Name="Data">
+      <Table>
+         <Row>
+            <Cell ss:StyleID="Header" ss:MergeAcross="2">
+               <Data ss:Type="String"> </Data>
+            </Cell>
+            <Cell ss:Index="4"
+                  ss:HRef="http://apps.who.int/gho/indicatorregistry/App_Main/view_indicator.aspx?iid=194"
+                  ss:StyleID="HeaderHyperlink">
+               <Data ss:Type="String">Number of registered vehicles</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Afghanistan</Data>
+            </Cell>
+            <Cell ss:StyleID="Header">
+               <Data ss:Type="String">2013</Data>
+            </Cell>
+            <Cell ss:StyleID="Header">
+               <Data ss:Type="String">RS_001</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">655 357</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Albania</Data>
+            </Cell>
+            <Cell ss:StyleID="Header">
+               <Data ss:Type="String">2013</Data>
+            </Cell>
+            <Cell ss:StyleID="Header">
+               <Data ss:Type="String">RS_002</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">445 956</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Algeria</Data>
+            </Cell>
+            <Cell ss:StyleID="Header">
+               <Data ss:Type="String">2013</Data>
+            </Cell>
+            <Cell ss:StyleID="Header">
+               <Data ss:Type="String">RS_003</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">7 308 539</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Andorra</Data>
+            </Cell>
+            <Cell ss:StyleID="Header">
+               <Data ss:Type="String">2013</Data>
+            </Cell>
+            <Cell ss:StyleID="Header">
+               <Data ss:Type="String">RS_004</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">76 394</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Angola</Data>
+            </Cell>
+            <Cell ss:StyleID="Header">
+               <Data ss:Type="String">2013</Data>
+            </Cell>
+            <Cell ss:StyleID="Header">
+               <Data ss:Type="String">RS_005</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">581 530</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Antigua and Barbuda</Data>
+            </Cell>
+            <Cell ss:StyleID="Header">
+               <Data ss:Type="String">2013</Data>
+            </Cell>
+            <Cell ss:StyleID="Header">
+               <Data ss:Type="String">RS_006</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">29 989</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Argentina</Data>
+            </Cell>
+            <Cell ss:StyleID="Header">
+               <Data ss:Type="String">2013</Data>
+            </Cell>
+            <Cell ss:StyleID="Header">
+               <Data ss:Type="String">RS_007</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">23 120 241</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Armenia</Data>
+            </Cell>
+            <Cell ss:StyleID="Header">
+               <Data ss:Type="String">2013</Data>
+            </Cell>
+            <Cell ss:StyleID="Header">
+               <Data ss:Type="String"> </Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">-</Data>
+               <Comment>
+                  <Data>No data</Data>
+               </Comment>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Australia</Data>
+            </Cell>
+            <Cell ss:StyleID="Header">
+               <Data ss:Type="String">2013</Data>
+            </Cell>
+            <Cell ss:StyleID="Header">
+               <Data ss:Type="String">RS_008</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">17 180 596</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Austria</Data>
+            </Cell>
+            <Cell ss:StyleID="Header">
+               <Data ss:Type="String">2013</Data>
+            </Cell>
+            <Cell ss:StyleID="Header">
+               <Data ss:Type="String">RS_009</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">6 384 971</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Azerbaijan</Data>
+            </Cell>
+            <Cell ss:StyleID="Header">
+               <Data ss:Type="String">2012</Data>
+            </Cell>
+            <Cell ss:StyleID="Header">
+               <Data ss:Type="String">RS_010</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">1 135 936</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Bahamas</Data>
+            </Cell>
+            <Cell ss:StyleID="Header">
+               <Data ss:Type="String">2013</Data>
+            </Cell>
+            <Cell ss:StyleID="Header">
+               <Data ss:Type="String">RS_011</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">144 388</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Bahrain</Data>
+            </Cell>
+            <Cell ss:StyleID="Header">
+               <Data ss:Type="String">2013</Data>
+            </Cell>
+            <Cell ss:StyleID="Header">
+               <Data ss:Type="String">RS_012</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">545 155</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Bangladesh</Data>
+            </Cell>
+            <Cell ss:StyleID="Header">
+               <Data ss:Type="String">2014</Data>
+            </Cell>
+            <Cell ss:StyleID="Header">
+               <Data ss:Type="String">RS_013</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">2 088 566</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Barbados</Data>
+            </Cell>
+            <Cell ss:StyleID="Header">
+               <Data ss:Type="String">2013</Data>
+            </Cell>
+            <Cell ss:StyleID="Header">
+               <Data ss:Type="String">RS_014</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">112 118</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Belarus</Data>
+            </Cell>
+            <Cell ss:StyleID="Header">
+               <Data ss:Type="String">2013</Data>
+            </Cell>
+            <Cell ss:StyleID="Header">
+               <Data ss:Type="String">RS_015</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">3 900 442</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Belgium</Data>
+            </Cell>
+            <Cell ss:StyleID="Header">
+               <Data ss:Type="String">2013</Data>
+            </Cell>
+            <Cell ss:StyleID="Header">
+               <Data ss:Type="String">RS_016</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">6 993 767</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Belize</Data>
+            </Cell>
+            <Cell ss:StyleID="Header">
+               <Data ss:Type="String">2013</Data>
+            </Cell>
+            <Cell ss:StyleID="Header">
+               <Data ss:Type="String"> </Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">-</Data>
+               <Comment>
+                  <Data>No data</Data>
+               </Comment>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Benin</Data>
+            </Cell>
+            <Cell ss:StyleID="Header">
+               <Data ss:Type="String">2013</Data>
+            </Cell>
+            <Cell ss:StyleID="Header">
+               <Data ss:Type="String">RS_017</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">34 914</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Bhutan</Data>
+            </Cell>
+            <Cell ss:StyleID="Header">
+               <Data ss:Type="String">2014</Data>
+            </Cell>
+            <Cell ss:StyleID="Header">
+               <Data ss:Type="String">RS_018</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">68 173</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Bolivia (Plurinational State of)</Data>
+            </Cell>
+            <Cell ss:StyleID="Header">
+               <Data ss:Type="String">2012</Data>
+            </Cell>
+            <Cell ss:StyleID="Header">
+               <Data ss:Type="String">RS_019</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">1 206 743</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Bosnia and Herzegovina</Data>
+            </Cell>
+            <Cell ss:StyleID="Header">
+               <Data ss:Type="String">2013</Data>
+            </Cell>
+            <Cell ss:StyleID="Header">
+               <Data ss:Type="String">RS_020</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">881 200</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Botswana</Data>
+            </Cell>
+            <Cell ss:StyleID="Header">
+               <Data ss:Type="String">2014</Data>
+            </Cell>
+            <Cell ss:StyleID="Header">
+               <Data ss:Type="String">RS_021</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">520 793</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Brazil</Data>
+            </Cell>
+            <Cell ss:StyleID="Header">
+               <Data ss:Type="String">2013</Data>
+            </Cell>
+            <Cell ss:StyleID="Header">
+               <Data ss:Type="String">RS_022</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">81 600 729</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Bulgaria</Data>
+            </Cell>
+            <Cell ss:StyleID="Header">
+               <Data ss:Type="String">2013</Data>
+            </Cell>
+            <Cell ss:StyleID="Header">
+               <Data ss:Type="String">RS_023</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">3 502 771</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Burkina Faso</Data>
+            </Cell>
+            <Cell ss:StyleID="Header">
+               <Data ss:Type="String">2013</Data>
+            </Cell>
+            <Cell ss:StyleID="Header">
+               <Data ss:Type="String">RS_024</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">1 545 903</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Cabo Verde</Data>
+            </Cell>
+            <Cell ss:StyleID="Header">
+               <Data ss:Type="String">2013</Data>
+            </Cell>
+            <Cell ss:StyleID="Header">
+               <Data ss:Type="String">RS_025</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">56 690</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Cambodia</Data>
+            </Cell>
+            <Cell ss:StyleID="Header">
+               <Data ss:Type="String">2013</Data>
+            </Cell>
+            <Cell ss:StyleID="Header">
+               <Data ss:Type="String">RS_026</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">2 457 569</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Cameroon</Data>
+            </Cell>
+            <Cell ss:StyleID="Header">
+               <Data ss:Type="String">2013</Data>
+            </Cell>
+            <Cell ss:StyleID="Header">
+               <Data ss:Type="String"> </Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">-</Data>
+               <Comment>
+                  <Data>No data</Data>
+               </Comment>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Canada</Data>
+            </Cell>
+            <Cell ss:StyleID="Header">
+               <Data ss:Type="String">2012</Data>
+            </Cell>
+            <Cell ss:StyleID="Header">
+               <Data ss:Type="String">RS_027</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">22 366 270</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Central African Republic</Data>
+            </Cell>
+            <Cell ss:StyleID="Header">
+               <Data ss:Type="String">2014</Data>
+            </Cell>
+            <Cell ss:StyleID="Header">
+               <Data ss:Type="String">RS_028</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">37 475</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Chad</Data>
+            </Cell>
+            <Cell ss:StyleID="Header">
+               <Data ss:Type="String">2013</Data>
+            </Cell>
+            <Cell ss:StyleID="Header">
+               <Data ss:Type="String">RS_029</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">622 120</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Chile</Data>
+            </Cell>
+            <Cell ss:StyleID="Header">
+               <Data ss:Type="String">2013</Data>
+            </Cell>
+            <Cell ss:StyleID="Header">
+               <Data ss:Type="String">RS_030</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">4 263 084</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">China</Data>
+            </Cell>
+            <Cell ss:StyleID="Header">
+               <Data ss:Type="String">2013</Data>
+            </Cell>
+            <Cell ss:StyleID="Header">
+               <Data ss:Type="String">RS_031</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">250 138 212</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Colombia</Data>
+            </Cell>
+            <Cell ss:StyleID="Header">
+               <Data ss:Type="String">2013</Data>
+            </Cell>
+            <Cell ss:StyleID="Header">
+               <Data ss:Type="String">RS_032</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">9 734 565</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Congo</Data>
+            </Cell>
+            <Cell ss:StyleID="Header">
+               <Data ss:Type="String">2012</Data>
+            </Cell>
+            <Cell ss:StyleID="Header">
+               <Data ss:Type="String">RS_033</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">110 438</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Cook Islands</Data>
+            </Cell>
+            <Cell ss:StyleID="Header">
+               <Data ss:Type="String">2013</Data>
+            </Cell>
+            <Cell ss:StyleID="Header">
+               <Data ss:Type="String">RS_034</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">12 453</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Costa Rica</Data>
+            </Cell>
+            <Cell ss:StyleID="Header">
+               <Data ss:Type="String">2013</Data>
+            </Cell>
+            <Cell ss:StyleID="Header">
+               <Data ss:Type="String">RS_035</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">1 759 341</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Côte d'Ivoire</Data>
+            </Cell>
+            <Cell ss:StyleID="Header">
+               <Data ss:Type="String">2012</Data>
+            </Cell>
+            <Cell ss:StyleID="Header">
+               <Data ss:Type="String">RS_036</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">594 071</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Croatia</Data>
+            </Cell>
+            <Cell ss:StyleID="Header">
+               <Data ss:Type="String">2013</Data>
+            </Cell>
+            <Cell ss:StyleID="Header">
+               <Data ss:Type="String">RS_037</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">1 869 370</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Cuba</Data>
+            </Cell>
+            <Cell ss:StyleID="Header">
+               <Data ss:Type="String">2013</Data>
+            </Cell>
+            <Cell ss:StyleID="Header">
+               <Data ss:Type="String">RS_038</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">628 155</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Cyprus</Data>
+            </Cell>
+            <Cell ss:StyleID="Header">
+               <Data ss:Type="String">2013</Data>
+            </Cell>
+            <Cell ss:StyleID="Header">
+               <Data ss:Type="String">RS_039</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">644 068</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Czechia</Data>
+            </Cell>
+            <Cell ss:StyleID="Header">
+               <Data ss:Type="String">2013</Data>
+            </Cell>
+            <Cell ss:StyleID="Header">
+               <Data ss:Type="String">RS_040</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">7 689 730</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Democratic Republic of the Congo</Data>
+            </Cell>
+            <Cell ss:StyleID="Header">
+               <Data ss:Type="String">2010</Data>
+            </Cell>
+            <Cell ss:StyleID="Header">
+               <Data ss:Type="String">RS_041</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">350 000</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Denmark</Data>
+            </Cell>
+            <Cell ss:StyleID="Header">
+               <Data ss:Type="String">2013</Data>
+            </Cell>
+            <Cell ss:StyleID="Header">
+               <Data ss:Type="String">RS_042</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">2 911 147</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Djibouti</Data>
+            </Cell>
+            <Cell ss:StyleID="Header">
+               <Data ss:Type="String">2013</Data>
+            </Cell>
+            <Cell ss:StyleID="Header">
+               <Data ss:Type="String"> </Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">-</Data>
+               <Comment>
+                  <Data>No data</Data>
+               </Comment>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Dominica</Data>
+            </Cell>
+            <Cell ss:StyleID="Header">
+               <Data ss:Type="String">2014</Data>
+            </Cell>
+            <Cell ss:StyleID="Header">
+               <Data ss:Type="String">RS_043</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">24 620</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Dominican Republic</Data>
+            </Cell>
+            <Cell ss:StyleID="Header">
+               <Data ss:Type="String">2013</Data>
+            </Cell>
+            <Cell ss:StyleID="Header">
+               <Data ss:Type="String">RS_044</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">3 215 773</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Ecuador</Data>
+            </Cell>
+            <Cell ss:StyleID="Header">
+               <Data ss:Type="String">2013</Data>
+            </Cell>
+            <Cell ss:StyleID="Header">
+               <Data ss:Type="String">RS_045</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">1 721 206</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Egypt</Data>
+            </Cell>
+            <Cell ss:StyleID="Header">
+               <Data ss:Type="String">2013</Data>
+            </Cell>
+            <Cell ss:StyleID="Header">
+               <Data ss:Type="String">RS_046</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">7 037 954</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">El Salvador</Data>
+            </Cell>
+            <Cell ss:StyleID="Header">
+               <Data ss:Type="String">2013</Data>
+            </Cell>
+            <Cell ss:StyleID="Header">
+               <Data ss:Type="String">RS_047</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">817 972</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Eritrea</Data>
+            </Cell>
+            <Cell ss:StyleID="Header">
+               <Data ss:Type="String">2014</Data>
+            </Cell>
+            <Cell ss:StyleID="Header">
+               <Data ss:Type="String">RS_048</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">70 319</Data>
+               <Comment>
+                  <Data>Second quarter 2014.</Data>
+               </Comment>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Estonia</Data>
+            </Cell>
+            <Cell ss:StyleID="Header">
+               <Data ss:Type="String">2013</Data>
+            </Cell>
+            <Cell ss:StyleID="Header">
+               <Data ss:Type="String">RS_049</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">763 975</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Eswatini</Data>
+            </Cell>
+            <Cell ss:StyleID="Header">
+               <Data ss:Type="String">2013</Data>
+            </Cell>
+            <Cell ss:StyleID="Header">
+               <Data ss:Type="String">RS_150</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">180 103</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Ethiopia</Data>
+            </Cell>
+            <Cell ss:StyleID="Header">
+               <Data ss:Type="String">2012-2013</Data>
+            </Cell>
+            <Cell ss:StyleID="Header">
+               <Data ss:Type="String">RS_050</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">478 244</Data>
+               <Comment>
+                  <Data>Ethiopian calendar.</Data>
+               </Comment>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Fiji</Data>
+            </Cell>
+            <Cell ss:StyleID="Header">
+               <Data ss:Type="String">2013</Data>
+            </Cell>
+            <Cell ss:StyleID="Header">
+               <Data ss:Type="String">RS_051</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">86 535</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Finland</Data>
+            </Cell>
+            <Cell ss:StyleID="Header">
+               <Data ss:Type="String">2013</Data>
+            </Cell>
+            <Cell ss:StyleID="Header">
+               <Data ss:Type="String">RS_052</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">5 862 216</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">France</Data>
+            </Cell>
+            <Cell ss:StyleID="Header">
+               <Data ss:Type="String">2014</Data>
+            </Cell>
+            <Cell ss:StyleID="Header">
+               <Data ss:Type="String">RS_053</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">42 792 103</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Gabon</Data>
+            </Cell>
+            <Cell ss:StyleID="Header">
+               <Data ss:Type="String">2010</Data>
+            </Cell>
+            <Cell ss:StyleID="Header">
+               <Data ss:Type="String">RS_054</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">195 000</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Gambia</Data>
+            </Cell>
+            <Cell ss:StyleID="Header">
+               <Data ss:Type="String">2005-2013</Data>
+            </Cell>
+            <Cell ss:StyleID="Header">
+               <Data ss:Type="String">RS_055</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">54 471</Data>
+               <Comment>
+                  <Data>Data for 2005 to 2013.</Data>
+               </Comment>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Georgia</Data>
+            </Cell>
+            <Cell ss:StyleID="Header">
+               <Data ss:Type="String">2013</Data>
+            </Cell>
+            <Cell ss:StyleID="Header">
+               <Data ss:Type="String">RS_056</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">951 649</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Germany</Data>
+            </Cell>
+            <Cell ss:StyleID="Header">
+               <Data ss:Type="String">2013</Data>
+            </Cell>
+            <Cell ss:StyleID="Header">
+               <Data ss:Type="String">RS_057</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">52 391 000</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Ghana</Data>
+            </Cell>
+            <Cell ss:StyleID="Header">
+               <Data ss:Type="String">2012</Data>
+            </Cell>
+            <Cell ss:StyleID="Header">
+               <Data ss:Type="String">RS_058</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">1 532 080</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Greece</Data>
+            </Cell>
+            <Cell ss:StyleID="Header">
+               <Data ss:Type="String">2013</Data>
+            </Cell>
+            <Cell ss:StyleID="Header">
+               <Data ss:Type="String">RS_059</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">8 035 423</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Guatemala</Data>
+            </Cell>
+            <Cell ss:StyleID="Header">
+               <Data ss:Type="String">2013</Data>
+            </Cell>
+            <Cell ss:StyleID="Header">
+               <Data ss:Type="String">RS_060</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">2 562 925</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Guinea</Data>
+            </Cell>
+            <Cell ss:StyleID="Header">
+               <Data ss:Type="String">2011</Data>
+            </Cell>
+            <Cell ss:StyleID="Header">
+               <Data ss:Type="String">RS_061</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">33 943</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Guinea-Bissau</Data>
+            </Cell>
+            <Cell ss:StyleID="Header">
+               <Data ss:Type="String">2011-2014</Data>
+            </Cell>
+            <Cell ss:StyleID="Header">
+               <Data ss:Type="String">RS_062</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">62 239</Data>
+               <Comment>
+                  <Data>Data for 2011 to 2014.</Data>
+               </Comment>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Guyana</Data>
+            </Cell>
+            <Cell ss:StyleID="Header">
+               <Data ss:Type="String">2013</Data>
+            </Cell>
+            <Cell ss:StyleID="Header">
+               <Data ss:Type="String">RS_063</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">15 694</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Honduras</Data>
+            </Cell>
+            <Cell ss:StyleID="Header">
+               <Data ss:Type="String">2013</Data>
+            </Cell>
+            <Cell ss:StyleID="Header">
+               <Data ss:Type="String">RS_064</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">1 378 050</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Hungary</Data>
+            </Cell>
+            <Cell ss:StyleID="Header">
+               <Data ss:Type="String">2013</Data>
+            </Cell>
+            <Cell ss:StyleID="Header">
+               <Data ss:Type="String">RS_065</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">3 690 599</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Iceland</Data>
+            </Cell>
+            <Cell ss:StyleID="Header">
+               <Data ss:Type="String">2013</Data>
+            </Cell>
+            <Cell ss:StyleID="Header">
+               <Data ss:Type="String">RS_066</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">245 949</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">India</Data>
+            </Cell>
+            <Cell ss:StyleID="Header">
+               <Data ss:Type="String">2012</Data>
+            </Cell>
+            <Cell ss:StyleID="Header">
+               <Data ss:Type="String">RS_067</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">159 490 578</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Indonesia</Data>
+            </Cell>
+            <Cell ss:StyleID="Header">
+               <Data ss:Type="String">2013</Data>
+            </Cell>
+            <Cell ss:StyleID="Header">
+               <Data ss:Type="String">RS_068</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">104 211 132</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Iran (Islamic Republic of)</Data>
+            </Cell>
+            <Cell ss:StyleID="Header">
+               <Data ss:Type="String">2013</Data>
+            </Cell>
+            <Cell ss:StyleID="Header">
+               <Data ss:Type="String">RS_069</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">26 866 457</Data>
+               <Comment>
+                  <Data>Iranian calendar.</Data>
+               </Comment>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Iraq</Data>
+            </Cell>
+            <Cell ss:StyleID="Header">
+               <Data ss:Type="String">2013</Data>
+            </Cell>
+            <Cell ss:StyleID="Header">
+               <Data ss:Type="String">RS_070</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">4 515 041</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Ireland</Data>
+            </Cell>
+            <Cell ss:StyleID="Header">
+               <Data ss:Type="String">2013</Data>
+            </Cell>
+            <Cell ss:StyleID="Header">
+               <Data ss:Type="String">RS_071</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">2 482 557</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Israel</Data>
+            </Cell>
+            <Cell ss:StyleID="Header">
+               <Data ss:Type="String">2013</Data>
+            </Cell>
+            <Cell ss:StyleID="Header">
+               <Data ss:Type="String">RS_072</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">2 850 513</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Italy</Data>
+            </Cell>
+            <Cell ss:StyleID="Header">
+               <Data ss:Type="String">2013</Data>
+            </Cell>
+            <Cell ss:StyleID="Header">
+               <Data ss:Type="String">RS_073</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">51 269 218</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Jamaica</Data>
+            </Cell>
+            <Cell ss:StyleID="Header">
+               <Data ss:Type="String">2013</Data>
+            </Cell>
+            <Cell ss:StyleID="Header">
+               <Data ss:Type="String">RS_074</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">518 239</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Japan</Data>
+            </Cell>
+            <Cell ss:StyleID="Header">
+               <Data ss:Type="String">2013</Data>
+            </Cell>
+            <Cell ss:StyleID="Header">
+               <Data ss:Type="String">RS_075</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">91 377 312</Data>
+               <Comment>
+                  <Data>Data as of April 2013. </Data>
+               </Comment>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Jordan</Data>
+            </Cell>
+            <Cell ss:StyleID="Header">
+               <Data ss:Type="String">2013</Data>
+            </Cell>
+            <Cell ss:StyleID="Header">
+               <Data ss:Type="String">RS_076</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">1 263 754</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Kazakhstan</Data>
+            </Cell>
+            <Cell ss:StyleID="Header">
+               <Data ss:Type="String">2013</Data>
+            </Cell>
+            <Cell ss:StyleID="Header">
+               <Data ss:Type="String">RS_077</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">3 926 487</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Kenya</Data>
+            </Cell>
+            <Cell ss:StyleID="Header">
+               <Data ss:Type="String">2013</Data>
+            </Cell>
+            <Cell ss:StyleID="Header">
+               <Data ss:Type="String">RS_078</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">2 011 972</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Kiribati</Data>
+            </Cell>
+            <Cell ss:StyleID="Header">
+               <Data ss:Type="String">2013</Data>
+            </Cell>
+            <Cell ss:StyleID="Header">
+               <Data ss:Type="String">RS_079</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">3 452</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Kuwait</Data>
+            </Cell>
+            <Cell ss:StyleID="Header">
+               <Data ss:Type="String">2013</Data>
+            </Cell>
+            <Cell ss:StyleID="Header">
+               <Data ss:Type="String">RS_080</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">1 841 416</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Kyrgyzstan</Data>
+            </Cell>
+            <Cell ss:StyleID="Header">
+               <Data ss:Type="String">2013</Data>
+            </Cell>
+            <Cell ss:StyleID="Header">
+               <Data ss:Type="String">RS_081</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">958 187</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Lao People's Democratic Republic</Data>
+            </Cell>
+            <Cell ss:StyleID="Header">
+               <Data ss:Type="String">2013</Data>
+            </Cell>
+            <Cell ss:StyleID="Header">
+               <Data ss:Type="String">RS_082</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">1 439 481</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Latvia</Data>
+            </Cell>
+            <Cell ss:StyleID="Header">
+               <Data ss:Type="String">2013</Data>
+            </Cell>
+            <Cell ss:StyleID="Header">
+               <Data ss:Type="String">RS_083</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">826 469</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Lebanon</Data>
+            </Cell>
+            <Cell ss:StyleID="Header">
+               <Data ss:Type="String">2013</Data>
+            </Cell>
+            <Cell ss:StyleID="Header">
+               <Data ss:Type="String">RS_084</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">1 680 011</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Lesotho</Data>
+            </Cell>
+            <Cell ss:StyleID="Header">
+               <Data ss:Type="String">2013</Data>
+            </Cell>
+            <Cell ss:StyleID="Header">
+               <Data ss:Type="String">RS_085</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">122 997</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Liberia</Data>
+            </Cell>
+            <Cell ss:StyleID="Header">
+               <Data ss:Type="String">2012</Data>
+            </Cell>
+            <Cell ss:StyleID="Header">
+               <Data ss:Type="String">RS_086</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">1 085 075</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Libya</Data>
+            </Cell>
+            <Cell ss:StyleID="Header">
+               <Data ss:Type="String">2013</Data>
+            </Cell>
+            <Cell ss:StyleID="Header">
+               <Data ss:Type="String">RS_087</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">3 553 497</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Lithuania</Data>
+            </Cell>
+            <Cell ss:StyleID="Header">
+               <Data ss:Type="String">2012</Data>
+            </Cell>
+            <Cell ss:StyleID="Header">
+               <Data ss:Type="String">RS_088</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">1 984 496</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Luxembourg</Data>
+            </Cell>
+            <Cell ss:StyleID="Header">
+               <Data ss:Type="String">2014</Data>
+            </Cell>
+            <Cell ss:StyleID="Header">
+               <Data ss:Type="String">RS_089</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">431 245</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Madagascar</Data>
+            </Cell>
+            <Cell ss:StyleID="Header">
+               <Data ss:Type="String">2013</Data>
+            </Cell>
+            <Cell ss:StyleID="Header">
+               <Data ss:Type="String">RS_090</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">219 576</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Malawi</Data>
+            </Cell>
+            <Cell ss:StyleID="Header">
+               <Data ss:Type="String">2014</Data>
+            </Cell>
+            <Cell ss:StyleID="Header">
+               <Data ss:Type="String">RS_091</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">437 416</Data>
+               <Comment>
+                  <Data>Up to June 2014.</Data>
+               </Comment>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Malaysia</Data>
+            </Cell>
+            <Cell ss:StyleID="Header">
+               <Data ss:Type="String">2013</Data>
+            </Cell>
+            <Cell ss:StyleID="Header">
+               <Data ss:Type="String">RS_092</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">23 819 256</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Maldives</Data>
+            </Cell>
+            <Cell ss:StyleID="Header">
+               <Data ss:Type="String">2013</Data>
+            </Cell>
+            <Cell ss:StyleID="Header">
+               <Data ss:Type="String">RS_093</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">61 412</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Mali</Data>
+            </Cell>
+            <Cell ss:StyleID="Header">
+               <Data ss:Type="String">2013</Data>
+            </Cell>
+            <Cell ss:StyleID="Header">
+               <Data ss:Type="String">RS_094</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">289 828</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Malta</Data>
+            </Cell>
+            <Cell ss:StyleID="Header">
+               <Data ss:Type="String">2013</Data>
+            </Cell>
+            <Cell ss:StyleID="Header">
+               <Data ss:Type="String">RS_095</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">322 960</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Marshall Islands</Data>
+            </Cell>
+            <Cell ss:StyleID="Header">
+               <Data ss:Type="String">2013</Data>
+            </Cell>
+            <Cell ss:StyleID="Header">
+               <Data ss:Type="String">RS_096</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">2 116</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Mauritania</Data>
+            </Cell>
+            <Cell ss:StyleID="Header">
+               <Data ss:Type="String">2013</Data>
+            </Cell>
+            <Cell ss:StyleID="Header">
+               <Data ss:Type="String">RS_097</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">416 190</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Mauritius</Data>
+            </Cell>
+            <Cell ss:StyleID="Header">
+               <Data ss:Type="String">2013</Data>
+            </Cell>
+            <Cell ss:StyleID="Header">
+               <Data ss:Type="String">RS_098</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">443 495</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Mexico</Data>
+            </Cell>
+            <Cell ss:StyleID="Header">
+               <Data ss:Type="String">2013</Data>
+            </Cell>
+            <Cell ss:StyleID="Header">
+               <Data ss:Type="String">RS_099</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">35 005 913</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Micronesia (Federated States of)</Data>
+            </Cell>
+            <Cell ss:StyleID="Header">
+               <Data ss:Type="String">2010</Data>
+            </Cell>
+            <Cell ss:StyleID="Header">
+               <Data ss:Type="String">RS_100</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">8 337</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Monaco</Data>
+            </Cell>
+            <Cell ss:StyleID="Header">
+               <Data ss:Type="String">2013</Data>
+            </Cell>
+            <Cell ss:StyleID="Header">
+               <Data ss:Type="String">RS_101</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">41 055</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Mongolia</Data>
+            </Cell>
+            <Cell ss:StyleID="Header">
+               <Data ss:Type="String">2013</Data>
+            </Cell>
+            <Cell ss:StyleID="Header">
+               <Data ss:Type="String">RS_102</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">675 064</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Montenegro</Data>
+            </Cell>
+            <Cell ss:StyleID="Header">
+               <Data ss:Type="String">2013</Data>
+            </Cell>
+            <Cell ss:StyleID="Header">
+               <Data ss:Type="String">RS_103</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">201 229</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Morocco</Data>
+            </Cell>
+            <Cell ss:StyleID="Header">
+               <Data ss:Type="String">2013</Data>
+            </Cell>
+            <Cell ss:StyleID="Header">
+               <Data ss:Type="String">RS_104</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">3 286 421</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Mozambique</Data>
+            </Cell>
+            <Cell ss:StyleID="Header">
+               <Data ss:Type="String">2013</Data>
+            </Cell>
+            <Cell ss:StyleID="Header">
+               <Data ss:Type="String">RS_105</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">542 336</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Myanmar</Data>
+            </Cell>
+            <Cell ss:StyleID="Header">
+               <Data ss:Type="String">2014</Data>
+            </Cell>
+            <Cell ss:StyleID="Header">
+               <Data ss:Type="String">RS_106</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">4 310 112</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Namibia</Data>
+            </Cell>
+            <Cell ss:StyleID="Header">
+               <Data ss:Type="String">2012</Data>
+            </Cell>
+            <Cell ss:StyleID="Header">
+               <Data ss:Type="String">RS_107</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">280 583</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Nepal</Data>
+            </Cell>
+            <Cell ss:StyleID="Header">
+               <Data ss:Type="String">2011</Data>
+            </Cell>
+            <Cell ss:StyleID="Header">
+               <Data ss:Type="String">RS_108</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">1 178 911</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Netherlands</Data>
+            </Cell>
+            <Cell ss:StyleID="Header">
+               <Data ss:Type="String">2013</Data>
+            </Cell>
+            <Cell ss:StyleID="Header">
+               <Data ss:Type="String">RS_109</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">9 612 273</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">New Zealand</Data>
+            </Cell>
+            <Cell ss:StyleID="Header">
+               <Data ss:Type="String">2012</Data>
+            </Cell>
+            <Cell ss:StyleID="Header">
+               <Data ss:Type="String">RS_110</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">3 250 066</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Nicaragua</Data>
+            </Cell>
+            <Cell ss:StyleID="Header">
+               <Data ss:Type="String">2013</Data>
+            </Cell>
+            <Cell ss:StyleID="Header">
+               <Data ss:Type="String">RS_111</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">566 731</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Niger</Data>
+            </Cell>
+            <Cell ss:StyleID="Header">
+               <Data ss:Type="String">2013</Data>
+            </Cell>
+            <Cell ss:StyleID="Header">
+               <Data ss:Type="String">RS_112</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">315 600</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Nigeria</Data>
+            </Cell>
+            <Cell ss:StyleID="Header">
+               <Data ss:Type="String">2013</Data>
+            </Cell>
+            <Cell ss:StyleID="Header">
+               <Data ss:Type="String">RS_113</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">5 791 446</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Norway</Data>
+            </Cell>
+            <Cell ss:StyleID="Header">
+               <Data ss:Type="String">2012</Data>
+            </Cell>
+            <Cell ss:StyleID="Header">
+               <Data ss:Type="String">RS_114</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">3 671 885</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Oman</Data>
+            </Cell>
+            <Cell ss:StyleID="Header">
+               <Data ss:Type="String">2013</Data>
+            </Cell>
+            <Cell ss:StyleID="Header">
+               <Data ss:Type="String">RS_115</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">1 082 996</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Pakistan</Data>
+            </Cell>
+            <Cell ss:StyleID="Header">
+               <Data ss:Type="String">2011</Data>
+            </Cell>
+            <Cell ss:StyleID="Header">
+               <Data ss:Type="String">RS_116</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">9 080 437</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Palau</Data>
+            </Cell>
+            <Cell ss:StyleID="Header">
+               <Data ss:Type="String">2013</Data>
+            </Cell>
+            <Cell ss:StyleID="Header">
+               <Data ss:Type="String">RS_117</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">7 102</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Panama</Data>
+            </Cell>
+            <Cell ss:StyleID="Header">
+               <Data ss:Type="String">2013</Data>
+            </Cell>
+            <Cell ss:StyleID="Header">
+               <Data ss:Type="String">RS_118</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">1 004 669</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Papua New Guinea</Data>
+            </Cell>
+            <Cell ss:StyleID="Header">
+               <Data ss:Type="String">2014</Data>
+            </Cell>
+            <Cell ss:StyleID="Header">
+               <Data ss:Type="String">RS_119</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">94 297</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Paraguay</Data>
+            </Cell>
+            <Cell ss:StyleID="Header">
+               <Data ss:Type="String">2013</Data>
+            </Cell>
+            <Cell ss:StyleID="Header">
+               <Data ss:Type="String">RS_120</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">1 227 469</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Peru</Data>
+            </Cell>
+            <Cell ss:StyleID="Header">
+               <Data ss:Type="String">2013</Data>
+            </Cell>
+            <Cell ss:StyleID="Header">
+               <Data ss:Type="String">RS_121</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">4 264 114</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Philippines</Data>
+            </Cell>
+            <Cell ss:StyleID="Header">
+               <Data ss:Type="String">2013</Data>
+            </Cell>
+            <Cell ss:StyleID="Header">
+               <Data ss:Type="String">RS_122</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">7 690 038</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Poland</Data>
+            </Cell>
+            <Cell ss:StyleID="Header">
+               <Data ss:Type="String">2012</Data>
+            </Cell>
+            <Cell ss:StyleID="Header">
+               <Data ss:Type="String">RS_123</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">24 875 717</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Portugal</Data>
+            </Cell>
+            <Cell ss:StyleID="Header">
+               <Data ss:Type="String">2012</Data>
+            </Cell>
+            <Cell ss:StyleID="Header">
+               <Data ss:Type="String">RS_124</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">6 056 856</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Qatar</Data>
+            </Cell>
+            <Cell ss:StyleID="Header">
+               <Data ss:Type="String">2013</Data>
+            </Cell>
+            <Cell ss:StyleID="Header">
+               <Data ss:Type="String">RS_125</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">647 878</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Republic of Korea</Data>
+            </Cell>
+            <Cell ss:StyleID="Header">
+               <Data ss:Type="String">2013</Data>
+            </Cell>
+            <Cell ss:StyleID="Header">
+               <Data ss:Type="String">RS_126</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">23 150 619</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Republic of Moldova</Data>
+            </Cell>
+            <Cell ss:StyleID="Header">
+               <Data ss:Type="String">2013</Data>
+            </Cell>
+            <Cell ss:StyleID="Header">
+               <Data ss:Type="String">RS_127</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">706 785</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Romania</Data>
+            </Cell>
+            <Cell ss:StyleID="Header">
+               <Data ss:Type="String">2013</Data>
+            </Cell>
+            <Cell ss:StyleID="Header">
+               <Data ss:Type="String">RS_128</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">5 985 085</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Russian Federation</Data>
+            </Cell>
+            <Cell ss:StyleID="Header">
+               <Data ss:Type="String">2013</Data>
+            </Cell>
+            <Cell ss:StyleID="Header">
+               <Data ss:Type="String">RS_129</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">50 616 163</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Rwanda</Data>
+            </Cell>
+            <Cell ss:StyleID="Header">
+               <Data ss:Type="String">2012</Data>
+            </Cell>
+            <Cell ss:StyleID="Header">
+               <Data ss:Type="String">RS_130</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">107 411</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Saint Lucia</Data>
+            </Cell>
+            <Cell ss:StyleID="Header">
+               <Data ss:Type="String">2013</Data>
+            </Cell>
+            <Cell ss:StyleID="Header">
+               <Data ss:Type="String">RS_131</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">1 569</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Saint Vincent and the Grenadines</Data>
+            </Cell>
+            <Cell ss:StyleID="Header">
+               <Data ss:Type="String">2014</Data>
+            </Cell>
+            <Cell ss:StyleID="Header">
+               <Data ss:Type="String">RS_132</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">28 368</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Samoa</Data>
+            </Cell>
+            <Cell ss:StyleID="Header">
+               <Data ss:Type="String">2013</Data>
+            </Cell>
+            <Cell ss:StyleID="Header">
+               <Data ss:Type="String">RS_133</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">17 449</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">San Marino</Data>
+            </Cell>
+            <Cell ss:StyleID="Header">
+               <Data ss:Type="String">2013</Data>
+            </Cell>
+            <Cell ss:StyleID="Header">
+               <Data ss:Type="String">RS_134</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">54 606</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Sao Tome and Principe</Data>
+            </Cell>
+            <Cell ss:StyleID="Header">
+               <Data ss:Type="String">2013</Data>
+            </Cell>
+            <Cell ss:StyleID="Header">
+               <Data ss:Type="String"> </Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">-</Data>
+               <Comment>
+                  <Data>No data</Data>
+               </Comment>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Saudi Arabia</Data>
+            </Cell>
+            <Cell ss:StyleID="Header">
+               <Data ss:Type="String">2010</Data>
+            </Cell>
+            <Cell ss:StyleID="Header">
+               <Data ss:Type="String">RS_135</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">6 599 216</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Senegal</Data>
+            </Cell>
+            <Cell ss:StyleID="Header">
+               <Data ss:Type="String">2013</Data>
+            </Cell>
+            <Cell ss:StyleID="Header">
+               <Data ss:Type="String">RS_136</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">401 910</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Serbia</Data>
+            </Cell>
+            <Cell ss:StyleID="Header">
+               <Data ss:Type="String">2013</Data>
+            </Cell>
+            <Cell ss:StyleID="Header">
+               <Data ss:Type="String">RS_137</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">2 130 035</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Seychelles</Data>
+            </Cell>
+            <Cell ss:StyleID="Header">
+               <Data ss:Type="String">2013</Data>
+            </Cell>
+            <Cell ss:StyleID="Header">
+               <Data ss:Type="String">RS_138</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">18 606</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Sierra Leone</Data>
+            </Cell>
+            <Cell ss:StyleID="Header">
+               <Data ss:Type="String">2013</Data>
+            </Cell>
+            <Cell ss:StyleID="Header">
+               <Data ss:Type="String">RS_139</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">68 802</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Singapore</Data>
+            </Cell>
+            <Cell ss:StyleID="Header">
+               <Data ss:Type="String">2013</Data>
+            </Cell>
+            <Cell ss:StyleID="Header">
+               <Data ss:Type="String">RS_140</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">974 170</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Slovakia</Data>
+            </Cell>
+            <Cell ss:StyleID="Header">
+               <Data ss:Type="String">2013</Data>
+            </Cell>
+            <Cell ss:StyleID="Header">
+               <Data ss:Type="String">RS_141</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">2 622 939</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Slovenia</Data>
+            </Cell>
+            <Cell ss:StyleID="Header">
+               <Data ss:Type="String">2013</Data>
+            </Cell>
+            <Cell ss:StyleID="Header">
+               <Data ss:Type="String">RS_142</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">1 395 704</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Solomon Islands</Data>
+            </Cell>
+            <Cell ss:StyleID="Header">
+               <Data ss:Type="String">2013</Data>
+            </Cell>
+            <Cell ss:StyleID="Header">
+               <Data ss:Type="String">RS_143</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">45 000</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Somalia</Data>
+            </Cell>
+            <Cell ss:StyleID="Header">
+               <Data ss:Type="String">2014</Data>
+            </Cell>
+            <Cell ss:StyleID="Header">
+               <Data ss:Type="String">RS_144</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">59 457</Data>
+               <Comment>
+                  <Data>As of April 2014</Data>
+               </Comment>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">South Africa</Data>
+            </Cell>
+            <Cell ss:StyleID="Header">
+               <Data ss:Type="String">2013</Data>
+            </Cell>
+            <Cell ss:StyleID="Header">
+               <Data ss:Type="String">RS_145</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">9 909 923</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Spain</Data>
+            </Cell>
+            <Cell ss:StyleID="Header">
+               <Data ss:Type="String">2013</Data>
+            </Cell>
+            <Cell ss:StyleID="Header">
+               <Data ss:Type="String">RS_146</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">32 616 105</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Sri Lanka</Data>
+            </Cell>
+            <Cell ss:StyleID="Header">
+               <Data ss:Type="String">2013</Data>
+            </Cell>
+            <Cell ss:StyleID="Header">
+               <Data ss:Type="String">RS_147</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">5 203 678</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Sudan</Data>
+            </Cell>
+            <Cell ss:StyleID="Header">
+               <Data ss:Type="String">2013</Data>
+            </Cell>
+            <Cell ss:StyleID="Header">
+               <Data ss:Type="String">RS_148</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">320 974</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Suriname</Data>
+            </Cell>
+            <Cell ss:StyleID="Header">
+               <Data ss:Type="String">2012</Data>
+            </Cell>
+            <Cell ss:StyleID="Header">
+               <Data ss:Type="String">RS_149</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">207 161</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Sweden</Data>
+            </Cell>
+            <Cell ss:StyleID="Header">
+               <Data ss:Type="String">2013</Data>
+            </Cell>
+            <Cell ss:StyleID="Header">
+               <Data ss:Type="String">RS_151</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">5 755 952</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Switzerland</Data>
+            </Cell>
+            <Cell ss:StyleID="Header">
+               <Data ss:Type="String">2013</Data>
+            </Cell>
+            <Cell ss:StyleID="Header">
+               <Data ss:Type="String">RS_152</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">5 693 642</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Tajikistan</Data>
+            </Cell>
+            <Cell ss:StyleID="Header">
+               <Data ss:Type="String">2013</Data>
+            </Cell>
+            <Cell ss:StyleID="Header">
+               <Data ss:Type="String">RS_153</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">411 548</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Thailand</Data>
+            </Cell>
+            <Cell ss:StyleID="Header">
+               <Data ss:Type="String">2012</Data>
+            </Cell>
+            <Cell ss:StyleID="Header">
+               <Data ss:Type="String">RS_154</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">32 476 977</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Republic of North Macedonia</Data>
+            </Cell>
+            <Cell ss:StyleID="Header">
+               <Data ss:Type="String">2013</Data>
+            </Cell>
+            <Cell ss:StyleID="Header">
+               <Data ss:Type="String">RS_155</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">403 339</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Timor-Leste</Data>
+            </Cell>
+            <Cell ss:StyleID="Header">
+               <Data ss:Type="String">2006-2013</Data>
+            </Cell>
+            <Cell ss:StyleID="Header">
+               <Data ss:Type="String">RS_156</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">63 553</Data>
+               <Comment>
+                  <Data>Data for 2006 to 2013.</Data>
+               </Comment>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Togo</Data>
+            </Cell>
+            <Cell ss:StyleID="Header">
+               <Data ss:Type="String">2011</Data>
+            </Cell>
+            <Cell ss:StyleID="Header">
+               <Data ss:Type="String">RS_157</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">58 111</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Tonga</Data>
+            </Cell>
+            <Cell ss:StyleID="Header">
+               <Data ss:Type="String">2013</Data>
+            </Cell>
+            <Cell ss:StyleID="Header">
+               <Data ss:Type="String">RS_158</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">8 154</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Trinidad and Tobago</Data>
+            </Cell>
+            <Cell ss:StyleID="Header">
+               <Data ss:Type="String">2013</Data>
+            </Cell>
+            <Cell ss:StyleID="Header">
+               <Data ss:Type="String"> </Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">-</Data>
+               <Comment>
+                  <Data>No data</Data>
+               </Comment>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Tunisia</Data>
+            </Cell>
+            <Cell ss:StyleID="Header">
+               <Data ss:Type="String">2013</Data>
+            </Cell>
+            <Cell ss:StyleID="Header">
+               <Data ss:Type="String">RS_159</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">1 735 339</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Turkey</Data>
+            </Cell>
+            <Cell ss:StyleID="Header">
+               <Data ss:Type="String">2013</Data>
+            </Cell>
+            <Cell ss:StyleID="Header">
+               <Data ss:Type="String">RS_160</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">17 939 447</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Turkmenistan</Data>
+            </Cell>
+            <Cell ss:StyleID="Header">
+               <Data ss:Type="String">2014</Data>
+            </Cell>
+            <Cell ss:StyleID="Header">
+               <Data ss:Type="String">RS_161</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">847 874</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Uganda</Data>
+            </Cell>
+            <Cell ss:StyleID="Header">
+               <Data ss:Type="String">2013</Data>
+            </Cell>
+            <Cell ss:StyleID="Header">
+               <Data ss:Type="String">RS_162</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">1 228 425</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">United Arab Emirates</Data>
+            </Cell>
+            <Cell ss:StyleID="Header">
+               <Data ss:Type="String">2013</Data>
+            </Cell>
+            <Cell ss:StyleID="Header">
+               <Data ss:Type="String">RS_163</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">2 674 894</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">United Kingdom of Great Britain and Northern Ireland</Data>
+            </Cell>
+            <Cell ss:StyleID="Header">
+               <Data ss:Type="String">2012</Data>
+            </Cell>
+            <Cell ss:StyleID="Header">
+               <Data ss:Type="String">RS_164</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">35 582 650</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">United Republic of Tanzania</Data>
+            </Cell>
+            <Cell ss:StyleID="Header">
+               <Data ss:Type="String">2014</Data>
+            </Cell>
+            <Cell ss:StyleID="Header">
+               <Data ss:Type="String">RS_165</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">1 509 786</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">United States of America</Data>
+            </Cell>
+            <Cell ss:StyleID="Header">
+               <Data ss:Type="String">2011</Data>
+            </Cell>
+            <Cell ss:StyleID="Header">
+               <Data ss:Type="String">RS_166</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">265 043 362</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Uruguay</Data>
+            </Cell>
+            <Cell ss:StyleID="Header">
+               <Data ss:Type="String">2013</Data>
+            </Cell>
+            <Cell ss:StyleID="Header">
+               <Data ss:Type="String">RS_167</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">1 991 836</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Uzbekistan</Data>
+            </Cell>
+            <Cell ss:StyleID="Header">
+               <Data ss:Type="String">2013</Data>
+            </Cell>
+            <Cell ss:StyleID="Header">
+               <Data ss:Type="String"> </Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">-</Data>
+               <Comment>
+                  <Data>No data</Data>
+               </Comment>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Vanuatu</Data>
+            </Cell>
+            <Cell ss:StyleID="Header">
+               <Data ss:Type="String">2013</Data>
+            </Cell>
+            <Cell ss:StyleID="Header">
+               <Data ss:Type="String">RS_168</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">14 000</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Viet Nam</Data>
+            </Cell>
+            <Cell ss:StyleID="Header">
+               <Data ss:Type="String">2013</Data>
+            </Cell>
+            <Cell ss:StyleID="Header">
+               <Data ss:Type="String">RS_169</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">40 790 841</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Yemen</Data>
+            </Cell>
+            <Cell ss:StyleID="Header">
+               <Data ss:Type="String">2013</Data>
+            </Cell>
+            <Cell ss:StyleID="Header">
+               <Data ss:Type="String">RS_171</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">1 201 890</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Zambia</Data>
+            </Cell>
+            <Cell ss:StyleID="Header">
+               <Data ss:Type="String">2013</Data>
+            </Cell>
+            <Cell ss:StyleID="Header">
+               <Data ss:Type="String">RS_172</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">534 532</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Zimbabwe</Data>
+            </Cell>
+            <Cell ss:StyleID="Header">
+               <Data ss:Type="String">2013</Data>
+            </Cell>
+            <Cell ss:StyleID="Header">
+               <Data ss:Type="String">RS_173</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">927 129</Data>
+            </Cell>
+         </Row>
+      </Table>
+   </Worksheet>
+</Workbook>

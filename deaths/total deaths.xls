@@ -1,0 +1,3296 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workbook xmlns:o="urn:schemas-microsoft-com:office"
+          xmlns:x="urn:schemas-microsoft-com:excel"
+          xmlns:ss="urn:schemas-microsoft-com:spreadsheet"
+          xmlns:html="http://www.w3.org/TR/REC-html40"
+          xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+   <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+      <Author>Global Health Observatory</Author>
+      <Created>2019-10-03T15:36:17.291+02:00</Created>
+      <Company>World Health Organization</Company>
+      <Version>1.0</Version>
+   </DocumentProperties>
+   <Styles>
+      <Style ss:ID="Default" ss:Name="Normal">
+         <Alignment ss:Vertical="Top"/>
+         <Borders/>
+         <Font ss:Size="10"/>
+         <Interior/>
+         <NumberFormat/>
+         <Protection/>
+      </Style>
+      <Style ss:ID="Data" ss:Name="Data">
+         <Alignment ss:Vertical="Top"/>
+         <Borders>
+            <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+            <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+         </Borders>
+         <Font ss:Size="10"/>
+         <Interior/>
+         <NumberFormat/>
+         <Protection/>
+      </Style>
+      <Style ss:ID="Header" ss:Name="Header">
+         <Alignment ss:Vertical="Top" ss:WrapText="1"/>
+         <Borders>
+            <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="2"/>
+            <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="2"/>
+         </Borders>
+         <Font ss:Size="11" ss:Bold="1"/>
+         <Interior/>
+         <NumberFormat/>
+         <Protection/>
+      </Style>
+      <Style ss:ID="HeaderHyperlink" ss:Name="HeaderHyperlink">
+         <Alignment ss:Vertical="Top" ss:WrapText="1"/>
+         <Borders>
+            <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="2"/>
+            <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="2"/>
+         </Borders>
+         <Font ss:Size="11" ss:Bold="1" ss:Color="#0000FF" ss:Underline="Single"/>
+         <Interior/>
+         <NumberFormat/>
+         <Protection/>
+      </Style>
+      <Style ss:ID="Bold" ss:Name="Bold">
+         <Alignment ss:Vertical="Top"/>
+         <Font ss:Bold="1"/>
+      </Style>
+      <Style ss:ID="Hyperlink" ss:Name="Hyperlink">
+         <Font ss:Color="#0000FF" ss:Underline="Single"/>
+      </Style>
+      <Style ss:ID="WordWrap" ss:Name="WordWrap">
+         <Alignment ss:WrapText="1"/>
+      </Style>
+   </Styles>
+   <Worksheet ss:Name="Data">
+      <Table>
+         <Row>
+            <Cell ss:StyleID="Header" ss:MergeDown="1">
+               <Data ss:Type="String"> </Data>
+            </Cell>
+            <Cell ss:Index="2"
+                  ss:HRef="http://apps.who.int/gho/indicatorregistry/App_Main/view_indicator.aspx?iid=196"
+                  ss:StyleID="HeaderHyperlink">
+               <Data ss:Type="String">Estimated number of road traffic deaths</Data>
+            </Cell>
+            <Cell ss:MergeAcross="1"
+                  ss:HRef="http://apps.who.int/gho/indicatorregistry/App_Main/view_indicator.aspx?iid=198"
+                  ss:StyleID="HeaderHyperlink">
+               <Data ss:Type="String">Estimated road traffic death rate (per 100 000 population)</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:Index="2" ss:StyleID="Header">
+               <Data ss:Type="String">2013</Data>
+            </Cell>
+            <Cell ss:StyleID="Header">
+               <Data ss:Type="String">2016</Data>
+            </Cell>
+            <Cell ss:StyleID="Header">
+               <Data ss:Type="String">2013</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Afghanistan</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">4 734 [4 006 - 5 461]</Data>
+               <Comment>
+                  <Data>Regression estimate</Data>
+               </Comment>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">15.1</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">15.5</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Albania</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">478 [435 - 521]</Data>
+               <Comment>
+                  <Data>Regression estimate</Data>
+               </Comment>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">13.6</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">15.1</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Algeria</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">9 337 [7 985 - 10 689]</Data>
+               <Comment>
+                  <Data>Regression estimate</Data>
+               </Comment>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">23.8</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Andorra</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">6</Data>
+               <Comment>
+                  <Data>Death reported (small population)</Data>
+               </Comment>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">7.6</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Angola</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">5 769 [4 626 - 6 912]</Data>
+               <Comment>
+                  <Data>Regression estimate</Data>
+               </Comment>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">23.6</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">26.9</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Antigua and Barbuda</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">6</Data>
+               <Comment>
+                  <Data>Death reported (small population)</Data>
+               </Comment>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">7.9</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">6.7</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Argentina</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">5 619</Data>
+               <Comment>
+                  <Data>Projected death registration data</Data>
+               </Comment>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">14.0</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">13.6</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Armenia</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">546 [503 - 588]</Data>
+               <Comment>
+                  <Data>Regression estimate</Data>
+               </Comment>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">17.1</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">18.3</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Australia</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">1 252</Data>
+               <Comment>
+                  <Data>Projected death registration data</Data>
+               </Comment>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">5.6</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">5.4</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Austria</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">455</Data>
+               <Comment>
+                  <Data>Reported deaths ( replacing death registration estimate)</Data>
+               </Comment>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">5.2</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">5.4</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Azerbaijan</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">943</Data>
+               <Comment>
+                  <Data>Projected death registration data</Data>
+               </Comment>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">8.7</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">10.0</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Bahamas</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">52</Data>
+               <Comment>
+                  <Data>Projected death registration data</Data>
+               </Comment>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">13.8</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Bahrain</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">107</Data>
+               <Comment>
+                  <Data>Death registration data</Data>
+               </Comment>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">8.0</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Bangladesh</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">21 316 [17 349 - 25 283]</Data>
+               <Comment>
+                  <Data>Regression estimate</Data>
+               </Comment>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">15.3</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">13.6</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Barbados</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">19</Data>
+               <Comment>
+                  <Data>Projected death registration data</Data>
+               </Comment>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">5.6</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">6.7</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Belarus</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">1 282</Data>
+               <Comment>
+                  <Data>Projected death registration data</Data>
+               </Comment>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">8.9</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">13.7</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Belgium</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">746</Data>
+               <Comment>
+                  <Data>Projected death registration data</Data>
+               </Comment>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">5.8</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">6.7</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Belize</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">81</Data>
+               <Comment>
+                  <Data>Projected death registration data</Data>
+               </Comment>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">28.3</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">24.4</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Benin</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">2 855 [2 398 - 3 312]</Data>
+               <Comment>
+                  <Data>Regression estimate</Data>
+               </Comment>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">27.5</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">27.7</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Bhutan</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">114 [98 - 130]</Data>
+               <Comment>
+                  <Data>Regression estimate</Data>
+               </Comment>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">17.4</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">15.1</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Bolivia (Plurinational State of)</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">2 476 [2 190 - 2 763]</Data>
+               <Comment>
+                  <Data>Regression estimate</Data>
+               </Comment>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">15.5</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">23.2</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Bosnia and Herzegovina</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">676 [607 - 745]</Data>
+               <Comment>
+                  <Data>Regression estimate</Data>
+               </Comment>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">15.7</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">17.7</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Botswana</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">477 [412 - 542]</Data>
+               <Comment>
+                  <Data>Regression estimate</Data>
+               </Comment>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">23.8</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">23.6</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Brazil</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">46 935</Data>
+               <Comment>
+                  <Data>Projected death registration data</Data>
+               </Comment>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">19.7</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">23.4</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Brunei Darussalam</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">8.0</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Bulgaria</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">601</Data>
+               <Comment>
+                  <Data>Reported deaths ( replacing death registration estimate)</Data>
+               </Comment>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">10.2</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">8.3</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Burkina Faso</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">5 072 [4 064 - 6 080]</Data>
+               <Comment>
+                  <Data>Regression estimate</Data>
+               </Comment>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">30.5</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">30.0</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Burundi</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">34.7</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">31.3</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Cabo Verde</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">130 [113 - 147]</Data>
+               <Comment>
+                  <Data>Regression estimate</Data>
+               </Comment>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">25.0</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">26.1</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Cambodia</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">2 635 [2 150 - 3 120]</Data>
+               <Comment>
+                  <Data>Regression estimate</Data>
+               </Comment>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">17.8</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">17.4</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Cameroon</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">6 136 [5 035 - 7 236]</Data>
+               <Comment>
+                  <Data>Regression estimate</Data>
+               </Comment>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">30.1</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">27.6</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Canada</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">2 114</Data>
+               <Comment>
+                  <Data>Projected death registration data</Data>
+               </Comment>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">5.8</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">6.0</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Central African Republic</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">1 495 [1 169 - 1 821]</Data>
+               <Comment>
+                  <Data>Regression estimate</Data>
+               </Comment>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">33.6</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">32.4</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Chad</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">3 089 [2 420 - 3 758]</Data>
+               <Comment>
+                  <Data>Regression estimate</Data>
+               </Comment>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">27.6</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">24.1</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Chile</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">2 179</Data>
+               <Comment>
+                  <Data>Projected death registration data</Data>
+               </Comment>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">12.5</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">12.4</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">China</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">261 367</Data>
+               <Comment>
+                  <Data>Death registration data</Data>
+               </Comment>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">18.2</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">18.8</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Colombia</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">8 107</Data>
+               <Comment>
+                  <Data>Projected death registration data</Data>
+               </Comment>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">18.5</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">16.8</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Comoros</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">26.5</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">28.0</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Congo</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">1 174 [976 - 1 373]</Data>
+               <Comment>
+                  <Data>Regression estimate</Data>
+               </Comment>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">27.4</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">26.4</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Cook Islands</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">5</Data>
+               <Comment>
+                  <Data>Death reported (small population)</Data>
+               </Comment>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">17.3</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">24.2</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Costa Rica</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">676</Data>
+               <Comment>
+                  <Data>Projected death registration data</Data>
+               </Comment>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">16.7</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">13.9</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Côte d'Ivoire</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">4 924 [4 043 - 5 805]</Data>
+               <Comment>
+                  <Data>Regression estimate</Data>
+               </Comment>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">23.6</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">24.2</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Croatia</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">395</Data>
+               <Comment>
+                  <Data>Death registration data</Data>
+               </Comment>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">8.1</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">9.2</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Cuba</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">840</Data>
+               <Comment>
+                  <Data>Projected death registration data</Data>
+               </Comment>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">8.5</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">7.5</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Cyprus</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">59</Data>
+               <Comment>
+                  <Data>Projected death registration data</Data>
+               </Comment>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">5.1</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">5.2</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Czechia</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">654</Data>
+               <Comment>
+                  <Data>Reported deaths ( replacing death registration estimate)</Data>
+               </Comment>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">5.9</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">6.1</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Democratic People's Republic of Korea</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">20.8</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Democratic Republic of the Congo</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">22 419 [17 966 - 26 872]</Data>
+               <Comment>
+                  <Data>Regression estimate</Data>
+               </Comment>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">33.7</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">33.2</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Denmark</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">196</Data>
+               <Comment>
+                  <Data>Projected death registration data</Data>
+               </Comment>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">4.0</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">3.5</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Djibouti</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">216 [185 - 247]</Data>
+               <Comment>
+                  <Data>Regression estimate</Data>
+               </Comment>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">24.7</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Dominica</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">11</Data>
+               <Comment>
+                  <Data>Death reported (small population)</Data>
+               </Comment>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">10.9</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">15.3</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Dominican Republic</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">3 052</Data>
+               <Comment>
+                  <Data>Projected death registration data</Data>
+               </Comment>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">34.6</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">29.3</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Ecuador</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">3 164</Data>
+               <Comment>
+                  <Data>Projected death registration data</Data>
+               </Comment>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">21.3</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">20.1</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Egypt</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">10 466</Data>
+               <Comment>
+                  <Data>Projected death registration data</Data>
+               </Comment>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">9.7</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">12.8</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">El Salvador</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">1 339</Data>
+               <Comment>
+                  <Data>Projected death registration data</Data>
+               </Comment>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">22.2</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">21.1</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Equatorial Guinea</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">24.6</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">22.9</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Eritrea</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">1 527 [1 249 - 1 805]</Data>
+               <Comment>
+                  <Data>Regression estimate</Data>
+               </Comment>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">25.3</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">24.1</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Estonia</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">90</Data>
+               <Comment>
+                  <Data>Death registration data</Data>
+               </Comment>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">6.1</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">7.0</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Eswatini</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">303 [263 - 343]</Data>
+               <Comment>
+                  <Data>Regression estimate</Data>
+               </Comment>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">26.9</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">24.2</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Ethiopia</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">23 837 [18 528 - 29 146]</Data>
+               <Comment>
+                  <Data>Regression estimate</Data>
+               </Comment>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">26.7</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">25.3</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Fiji</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">51</Data>
+               <Comment>
+                  <Data>Projected death registration data</Data>
+               </Comment>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">9.6</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">5.8</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Finland</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">258</Data>
+               <Comment>
+                  <Data>Reported deaths ( replacing death registration estimate)</Data>
+               </Comment>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">4.7</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">4.8</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">France</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">3 268</Data>
+               <Comment>
+                  <Data>Reported deaths ( replacing death registration estimate)</Data>
+               </Comment>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">5.5</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">5.1</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Gabon</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">383 [316 - 450]</Data>
+               <Comment>
+                  <Data>Regression estimate</Data>
+               </Comment>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">23.2</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">22.9</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Gambia</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">544 [438 - 650]</Data>
+               <Comment>
+                  <Data>Regression estimate</Data>
+               </Comment>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">29.7</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">29.4</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Georgia</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">514</Data>
+               <Comment>
+                  <Data>Reported deaths ( replacing death registration estimate)</Data>
+               </Comment>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">15.3</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">11.8</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Germany</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">3 540</Data>
+               <Comment>
+                  <Data>Projected death registration data</Data>
+               </Comment>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">4.1</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">4.3</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Ghana</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">6 789 [5 877 - 7 701]</Data>
+               <Comment>
+                  <Data>Regression estimate</Data>
+               </Comment>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">24.9</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">26.2</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Greece</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">1 013</Data>
+               <Comment>
+                  <Data>Projected death registration data</Data>
+               </Comment>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">9.2</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">9.1</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Grenada</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">9.3</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">5.7</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Guatemala</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">2 939</Data>
+               <Comment>
+                  <Data>Death registration data</Data>
+               </Comment>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">16.6</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">19.0</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Guinea</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">3 211 [2 640 - 3 781]</Data>
+               <Comment>
+                  <Data>Regression estimate</Data>
+               </Comment>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">28.2</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">27.3</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Guinea-Bissau</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">468 [387 - 548]</Data>
+               <Comment>
+                  <Data>Regression estimate</Data>
+               </Comment>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">31.1</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">27.5</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Guyana</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">138</Data>
+               <Comment>
+                  <Data>Projected death registration data</Data>
+               </Comment>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">24.6</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">17.3</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Haiti</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">15.1</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Honduras</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">1 408 [1 288 - 1 529]</Data>
+               <Comment>
+                  <Data>Regression estimate</Data>
+               </Comment>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">16.7</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">17.4</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Hungary</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">765</Data>
+               <Comment>
+                  <Data>Projected death registration data</Data>
+               </Comment>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">7.8</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">7.7</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Iceland</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">15</Data>
+               <Comment>
+                  <Data>Reported deaths ( replacing death registration estimate)</Data>
+               </Comment>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">6.6</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">4.6</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">India</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">207 551</Data>
+               <Comment>
+                  <Data>Regression estimate projected from 2001-2003 data</Data>
+               </Comment>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">22.6</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">16.6</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Indonesia</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">38 279 [32 079 - 44 479]</Data>
+               <Comment>
+                  <Data>Regression estimate</Data>
+               </Comment>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">12.2</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">15.3</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Iran (Islamic Republic of)</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">24 896</Data>
+               <Comment>
+                  <Data>Projected death registration data</Data>
+               </Comment>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">20.5</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">32.1</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Iraq</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">6 826 [5 507 - 8 146]</Data>
+               <Comment>
+                  <Data>Regression estimate</Data>
+               </Comment>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">20.7</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">20.2</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Ireland</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">188</Data>
+               <Comment>
+                  <Data>Reported deaths ( replacing death registration estimate)</Data>
+               </Comment>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">4.1</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">4.1</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Israel</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">277</Data>
+               <Comment>
+                  <Data>Reported deaths ( replacing death registration estimate)</Data>
+               </Comment>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">4.2</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">3.6</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Italy</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">3 721</Data>
+               <Comment>
+                  <Data>Projected death registration data</Data>
+               </Comment>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">5.6</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">6.1</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Jamaica</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">320</Data>
+               <Comment>
+                  <Data>Projected death registration data</Data>
+               </Comment>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">13.6</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">11.5</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Japan</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">5 971</Data>
+               <Comment>
+                  <Data>Death registration data</Data>
+               </Comment>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">4.1</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">4.7</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Jordan</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">1 913 [1 633 - 2 193]</Data>
+               <Comment>
+                  <Data>Regression estimate</Data>
+               </Comment>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">24.4</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">26.3</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Kazakhstan</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">3 983</Data>
+               <Comment>
+                  <Data>Projected death registration data</Data>
+               </Comment>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">17.6</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">24.2</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Kenya</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">12 891 [10 809 - 14 974]</Data>
+               <Comment>
+                  <Data>Regression estimate</Data>
+               </Comment>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">27.8</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">29.1</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Kiribati</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">3</Data>
+               <Comment>
+                  <Data>Death reported (small population)</Data>
+               </Comment>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">4.4</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">2.9</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Kuwait</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">629</Data>
+               <Comment>
+                  <Data>Projected death registration data</Data>
+               </Comment>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">17.6</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">18.7</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Kyrgyzstan</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">1 220</Data>
+               <Comment>
+                  <Data>Death registration data</Data>
+               </Comment>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">15.4</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">22.0</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Lao People's Democratic Republic</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">971 [795 - 1 147]</Data>
+               <Comment>
+                  <Data>Regression estimate</Data>
+               </Comment>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">16.6</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">14.3</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Latvia</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">205</Data>
+               <Comment>
+                  <Data>Death registration data</Data>
+               </Comment>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">9.3</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">10.0</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Lebanon</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">1 088 [962 - 1 215]</Data>
+               <Comment>
+                  <Data>Regression estimate</Data>
+               </Comment>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">18.1</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">22.6</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Lesotho</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">584 [491 - 677]</Data>
+               <Comment>
+                  <Data>Regression estimate</Data>
+               </Comment>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">28.9</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">28.2</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Liberia</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">1 448 [1 144 - 1 752]</Data>
+               <Comment>
+                  <Data>Regression estimate</Data>
+               </Comment>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">35.9</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">33.7</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Libya</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">4 554 [3 973 - 5 136]</Data>
+               <Comment>
+                  <Data>Regression estimate</Data>
+               </Comment>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">26.1</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">23.8</Data>
+               <Comment>
+                  <Data>Updated estimate.</Data>
+               </Comment>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Lithuania</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">320</Data>
+               <Comment>
+                  <Data>Projected death registration data</Data>
+               </Comment>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">8.0</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">10.6</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Luxembourg</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">46</Data>
+               <Comment>
+                  <Data>Death registration data</Data>
+               </Comment>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">6.3</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">8.7</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Madagascar</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">6 506 [5 361 - 7 650]</Data>
+               <Comment>
+                  <Data>Regression estimate</Data>
+               </Comment>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">28.6</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">28.4</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Malawi</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">5 732 [4 606 - 6 858]</Data>
+               <Comment>
+                  <Data>Regression estimate</Data>
+               </Comment>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">31.0</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">35.0</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Malaysia</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">7 129 [6 050 - 8 209]</Data>
+               <Comment>
+                  <Data>Regression estimate</Data>
+               </Comment>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">23.6</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">24.0</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Maldives</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">12</Data>
+               <Comment>
+                  <Data>Projected death registration data</Data>
+               </Comment>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">0.9</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">3.5</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Mali</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">3 920 [3 193 - 4 648]</Data>
+               <Comment>
+                  <Data>Regression estimate</Data>
+               </Comment>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">23.1</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">25.6</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Malta</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">22</Data>
+               <Comment>
+                  <Data>Death registration data</Data>
+               </Comment>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">6.1</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">5.1</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Marshall Islands</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">3</Data>
+               <Comment>
+                  <Data>Death reported (small population)</Data>
+               </Comment>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">5.7</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Mauritania</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">952 [788 - 1 116]</Data>
+               <Comment>
+                  <Data>Regression estimate</Data>
+               </Comment>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">24.7</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">24.5</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Mauritius</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">152</Data>
+               <Comment>
+                  <Data>Death registration data</Data>
+               </Comment>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">13.7</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">12.2</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Mexico</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">15 062</Data>
+               <Comment>
+                  <Data>Projected death registration data</Data>
+               </Comment>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">13.1</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">12.3</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Micronesia (Federated States of)</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">2</Data>
+               <Comment>
+                  <Data>Death reported (small population)</Data>
+               </Comment>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">1.9</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">1.9</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Monaco</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">0.00000</Data>
+               <Comment>
+                  <Data>Death reported (small population)</Data>
+               </Comment>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">.0</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Mongolia</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">597 [538 - 656]</Data>
+               <Comment>
+                  <Data>Regression estimate</Data>
+               </Comment>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">16.5</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">21.0</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Montenegro</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">74</Data>
+               <Comment>
+                  <Data>Reported deaths ( replacing death registration estimate)</Data>
+               </Comment>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">10.7</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">11.9</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Morocco</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">6 870 [5 831 - 7 910]</Data>
+               <Comment>
+                  <Data>Regression estimate</Data>
+               </Comment>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">19.6</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">20.8</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Mozambique</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">8 173 [6 502 - 9 843]</Data>
+               <Comment>
+                  <Data>Regression estimate</Data>
+               </Comment>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">30.1</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">31.6</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Myanmar</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">10 809 [8 790 - 12 829]</Data>
+               <Comment>
+                  <Data>Regression estimate</Data>
+               </Comment>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">19.9</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">20.3</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Namibia</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">551 [474 - 628]</Data>
+               <Comment>
+                  <Data>Regression estimate</Data>
+               </Comment>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">30.4</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">23.9</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Nepal</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">4 713 [3 880 - 5 546]</Data>
+               <Comment>
+                  <Data>Regression estimate</Data>
+               </Comment>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">15.9</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">17.0</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Netherlands</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">574</Data>
+               <Comment>
+                  <Data>Projected death registration data</Data>
+               </Comment>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">3.8</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">3.4</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">New Zealand</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">272</Data>
+               <Comment>
+                  <Data>Projected death registration data</Data>
+               </Comment>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">7.8</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">6.0</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Nicaragua</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">931 [843 - 1 020]</Data>
+               <Comment>
+                  <Data>Regression estimate</Data>
+               </Comment>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">15.3</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Niger</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">4 706 [3 741 - 5 670]</Data>
+               <Comment>
+                  <Data>Regression estimate</Data>
+               </Comment>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">26.2</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">26.4</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Nigeria</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">35 641 [27 949 - 43 332]</Data>
+               <Comment>
+                  <Data>Regression estimate</Data>
+               </Comment>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">21.4</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">20.5</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Norway</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">192</Data>
+               <Comment>
+                  <Data>Projected death registration data</Data>
+               </Comment>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">2.7</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">3.8</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Oman</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">924</Data>
+               <Comment>
+                  <Data>Projected death registration data</Data>
+               </Comment>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">16.1</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">25.4</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Pakistan</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">25 781 [20 979 - 30 582]</Data>
+               <Comment>
+                  <Data>Regression estimate</Data>
+               </Comment>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">14.3</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">14.2</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Palau</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">1</Data>
+               <Comment>
+                  <Data>Death reported (small population)</Data>
+               </Comment>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">4.8</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Panama</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">386</Data>
+               <Comment>
+                  <Data>Death registration data</Data>
+               </Comment>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">14.3</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">10.0</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Papua New Guinea</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">1 232 [1 058 - 1 405]</Data>
+               <Comment>
+                  <Data>Regression estimate</Data>
+               </Comment>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">14.2</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">16.8</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Paraguay</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">1 408</Data>
+               <Comment>
+                  <Data>Projected death registration data</Data>
+               </Comment>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">22.7</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">20.7</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Peru</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">4 234 [3 826 - 4 643]</Data>
+               <Comment>
+                  <Data>Regression estimate</Data>
+               </Comment>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">13.5</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">13.9</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Philippines</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">10 379</Data>
+               <Comment>
+                  <Data>Projected death registration data</Data>
+               </Comment>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">12.3</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">10.5</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Poland</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">3 931</Data>
+               <Comment>
+                  <Data>Projected death registration data</Data>
+               </Comment>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">9.7</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">10.3</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Portugal</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">828</Data>
+               <Comment>
+                  <Data>Death registration data</Data>
+               </Comment>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">7.4</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">7.8</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Qatar</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">330</Data>
+               <Comment>
+                  <Data>Projected death registration data</Data>
+               </Comment>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">9.3</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">15.2</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Republic of Korea</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">5 931</Data>
+               <Comment>
+                  <Data>Projected death registration data</Data>
+               </Comment>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">9.8</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">12.0</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Republic of Moldova</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">437</Data>
+               <Comment>
+                  <Data>Death registration data</Data>
+               </Comment>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">9.7</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">12.5</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Romania</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">1 881</Data>
+               <Comment>
+                  <Data>Projected death registration data</Data>
+               </Comment>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">10.3</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">8.7</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Russian Federation</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">27 025</Data>
+               <Comment>
+                  <Data>Projected death registration data</Data>
+               </Comment>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">18.0</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">18.9</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Rwanda</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">3 782 [3 022 - 4 541]</Data>
+               <Comment>
+                  <Data>Regression estimate</Data>
+               </Comment>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">29.7</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">32.1</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Saint Lucia</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">33</Data>
+               <Comment>
+                  <Data>Projected death registration data</Data>
+               </Comment>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">35.4</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">18.1</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Saint Vincent and the Grenadines</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">9</Data>
+               <Comment>
+                  <Data>Death reported (small population)</Data>
+               </Comment>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">8.2</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Samoa</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">30 [27 - 33]</Data>
+               <Comment>
+                  <Data>Regression estimate</Data>
+               </Comment>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">11.3</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">15.8</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">San Marino</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">1</Data>
+               <Comment>
+                  <Data>Death reported (small population)</Data>
+               </Comment>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">0.0</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">3.2</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Sao Tome and Principe</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">60 [47 - 73]</Data>
+               <Comment>
+                  <Data>Regression estimate</Data>
+               </Comment>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">27.5</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">31.1</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Saudi Arabia</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">7 898 [7 002 - 8 795]</Data>
+               <Comment>
+                  <Data>Regression estimate</Data>
+               </Comment>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">28.8</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">27.4</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Senegal</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">3 844 [3 214 - 4 474]</Data>
+               <Comment>
+                  <Data>Regression estimate</Data>
+               </Comment>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">23.4</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">27.2</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Serbia</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">735</Data>
+               <Comment>
+                  <Data>Projected death registration data</Data>
+               </Comment>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">7.4</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">7.7</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Seychelles</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">8</Data>
+               <Comment>
+                  <Data>Death reported (small population)</Data>
+               </Comment>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">15.9</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">8.6</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Sierra Leone</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">1 661 [1 334 - 1 988]</Data>
+               <Comment>
+                  <Data>Regression estimate</Data>
+               </Comment>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">27.3</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Singapore</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">197</Data>
+               <Comment>
+                  <Data>Projected death registration data</Data>
+               </Comment>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">2.8</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">3.6</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Slovakia</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">360</Data>
+               <Comment>
+                  <Data>Death registration data</Data>
+               </Comment>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">6.1</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">6.6</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Slovenia</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">132</Data>
+               <Comment>
+                  <Data>Projected death registration data</Data>
+               </Comment>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">6.4</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">6.4</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Solomon Islands</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">108 [96 - 120]</Data>
+               <Comment>
+                  <Data>Regression estimate</Data>
+               </Comment>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">17.4</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">19.2</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Somalia</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">2 664 [2 092 - 3 237]</Data>
+               <Comment>
+                  <Data>Regression estimate</Data>
+               </Comment>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">27.1</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">25.4</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">South Africa</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">13 273</Data>
+               <Comment>
+                  <Data>Reported deaths ( replacing death registration estimate)</Data>
+               </Comment>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">25.9</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">25.1</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">South Sudan</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">29.9</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">27.9</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Spain</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">1 730</Data>
+               <Comment>
+                  <Data>Projected death registration data</Data>
+               </Comment>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">4.1</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">3.7</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Sri Lanka</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">3 691 [3 245 - 4 137]</Data>
+               <Comment>
+                  <Data>Regression estimate</Data>
+               </Comment>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">14.9</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">17.4</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Sudan</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">9 221 [7 746 - 10 697]</Data>
+               <Comment>
+                  <Data>Regression estimate</Data>
+               </Comment>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">25.7</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">24.3</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Suriname</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">103</Data>
+               <Comment>
+                  <Data>Projected death registration data</Data>
+               </Comment>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">14.5</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">19.1</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Sweden</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">272</Data>
+               <Comment>
+                  <Data>Death registration data</Data>
+               </Comment>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">2.8</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">2.8</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Switzerland</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">269</Data>
+               <Comment>
+                  <Data>Reported deaths ( replacing death registration estimate)</Data>
+               </Comment>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">2.7</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">3.3</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Syrian Arab Republic</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">26.5</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">20.0</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Tajikistan</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">1 543 [1 387 - 1 699]</Data>
+               <Comment>
+                  <Data>Regression estimate</Data>
+               </Comment>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">18.1</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">18.8</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Thailand</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">24 237</Data>
+               <Comment>
+                  <Data>Projected death registration data </Data>
+               </Comment>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">32.7</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">36.2</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Republic of North Macedonia</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">198</Data>
+               <Comment>
+                  <Data>Reported deaths ( replacing death registration estimate)</Data>
+               </Comment>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">6.4</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">9.4</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Timor-Leste</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">188 [158 - 219]</Data>
+               <Comment>
+                  <Data>Regression estimate</Data>
+               </Comment>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">12.7</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">16.6</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Togo</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">2 123 [1 719 - 2 526]</Data>
+               <Comment>
+                  <Data>Regression estimate</Data>
+               </Comment>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">29.2</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">31.1</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Tonga</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">8</Data>
+               <Comment>
+                  <Data>Death reported (small population)</Data>
+               </Comment>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">16.8</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">7.6</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Trinidad and Tobago</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">189</Data>
+               <Comment>
+                  <Data>Projected death registration data</Data>
+               </Comment>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">12.1</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">14.1</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Tunisia</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">2 679 [2 346 - 3 012]</Data>
+               <Comment>
+                  <Data>Regression estimate</Data>
+               </Comment>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">22.8</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">24.4</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Turkey</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">6 687</Data>
+               <Comment>
+                  <Data>Death registration data</Data>
+               </Comment>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">12.3</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">8.9</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Turkmenistan</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">914 [844 - 983]</Data>
+               <Comment>
+                  <Data>Regression estimate</Data>
+               </Comment>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">14.5</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">17.4</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Uganda</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">10 280 [7 820 - 12 739]</Data>
+               <Comment>
+                  <Data>Regression estimate</Data>
+               </Comment>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">29.0</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">27.4</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Ukraine</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">13.7</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">10.6</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">United Arab Emirates</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">1 021 [845 - 1 198]</Data>
+               <Comment>
+                  <Data>Regression estimate</Data>
+               </Comment>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">18.1</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">10.9</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">United Kingdom of Great Britain and Northern Ireland</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">1 827</Data>
+               <Comment>
+                  <Data>Death registration data</Data>
+               </Comment>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">3.1</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">2.9</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">United Republic of Tanzania</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">16 211 [13 116 - 19 307]</Data>
+               <Comment>
+                  <Data>Regression estimate</Data>
+               </Comment>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">29.2</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">32.9</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">United States of America</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">34 064</Data>
+               <Comment>
+                  <Data>Projected death registration data</Data>
+               </Comment>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">12.4</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">10.6</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Uruguay</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">567</Data>
+               <Comment>
+                  <Data>Reported deaths ( replacing death registration estimate)</Data>
+               </Comment>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">13.4</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">16.6</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Uzbekistan</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">3 240</Data>
+               <Comment>
+                  <Data>Projected death registration data</Data>
+               </Comment>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">11.5</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">11.2</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Vanuatu</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">42 [37 - 47]</Data>
+               <Comment>
+                  <Data>Regression estimate</Data>
+               </Comment>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">15.9</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">16.6</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Venezuela (Bolivarian Republic of)</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">33.7</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">45.1</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Viet Nam</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">22 419</Data>
+               <Comment>
+                  <Data>Projected national verbal autopsy survey data</Data>
+               </Comment>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">26.4</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">24.5</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Yemen</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">5 248 [4 426 - 6 069]</Data>
+               <Comment>
+                  <Data>Regression estimate</Data>
+               </Comment>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">21.5</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Zambia</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">3 586 [2 914 - 4 257]</Data>
+               <Comment>
+                  <Data>Regression estimate</Data>
+               </Comment>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">24.7</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Zimbabwe</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">3 985 [3 319 - 4 652]</Data>
+               <Comment>
+                  <Data>Regression estimate</Data>
+               </Comment>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">34.7</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">28.2</Data>
+            </Cell>
+         </Row>
+      </Table>
+   </Worksheet>
+</Workbook>
